@@ -14,8 +14,7 @@ namespace Kinetix.Business.Mapping
             CreateMap<Order, OrderModelDto>();
             CreateMap<OrderModelDto, Order>();
             CreateMap<Article, ArticleModelDto>();
-            CreateMap<ArticleModelDto, Article>();
-            CreateMap<List<ArticleModelDto>, List<Article>>();
+            CreateMap<ArticleModelDto, Article>();        
         }
     }
 }

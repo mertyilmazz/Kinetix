@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinetix.Entity", "Kinetix.Entity\Kinetix.Entity.csproj", "{7A9314E5-7216-4103-9600-8816F70EFF22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinetix.Entity", "Kinetix.Entity\Kinetix.Entity.csproj", "{7A9314E5-7216-4103-9600-8816F70EFF22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinetix.WebAPI", "Kinetix.WebAPI\Kinetix.WebAPI.csproj", "{EA0C072B-31EC-4335-BC82-478ECD70EDA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinetix.WebAPI", "Kinetix.WebAPI\Kinetix.WebAPI.csproj", "{EA0C072B-31EC-4335-BC82-478ECD70EDA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinetix.DataAccess", "Kinetix.DataAccess\Kinetix.DataAccess.csproj", "{F809C1FF-FB83-4B29-81B0-7D3CCBFF5BCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinetix.DataAccess", "Kinetix.DataAccess\Kinetix.DataAccess.csproj", "{F809C1FF-FB83-4B29-81B0-7D3CCBFF5BCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinetix.Business", "Kinetix.Business\Kinetix.Business.csproj", "{4A56BFF4-CBAE-4086-8124-94BD33A6C08C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinetix.Business", "Kinetix.Business\Kinetix.Business.csproj", "{4A56BFF4-CBAE-4086-8124-94BD33A6C08C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinetix.Dto", "Kinetix.Dto\Kinetix.Dto.csproj", "{6B463261-F635-4FA2-B196-3958B49820A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kinetix.Dto", "Kinetix.Dto\Kinetix.Dto.csproj", "{6B463261-F635-4FA2-B196-3958B49820A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinetix.IntegrationTests", "Kinetix.IntegrationTests\Kinetix.IntegrationTests.csproj", "{18C396FD-7BA5-42CB-A7C2-0906E2396771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6B463261-F635-4FA2-B196-3958B49820A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B463261-F635-4FA2-B196-3958B49820A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B463261-F635-4FA2-B196-3958B49820A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C396FD-7BA5-42CB-A7C2-0906E2396771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C396FD-7BA5-42CB-A7C2-0906E2396771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C396FD-7BA5-42CB-A7C2-0906E2396771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C396FD-7BA5-42CB-A7C2-0906E2396771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

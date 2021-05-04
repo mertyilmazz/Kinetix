@@ -19,7 +19,7 @@ namespace Kinetix.DataAccess.Concrete
 
         public async Task AddOrderAsync(Order order)
         {
-            await _context.Orders.AddAsync(order);
+            _context.Orders.Add(order);
 
             var articles = order.Articles;
 

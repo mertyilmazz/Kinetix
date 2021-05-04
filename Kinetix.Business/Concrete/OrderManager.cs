@@ -46,6 +46,7 @@ namespace Kinetix.Business.Concrete
             var orderEntity = _mapper.Map<Order>(orderModel);
 
             await _orderDal.AddOrderAsync(orderEntity);
+
             await _orderManagementClient.AddOrder(orderModel);
         }
 
